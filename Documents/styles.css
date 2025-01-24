@@ -1,12 +1,12 @@
 /* Reset default margins and paddings */
 * {
-    margin: 1;
-    padding: 0;
+    margin: 2;
+    padding: 2;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: white;
     color: black;
     display: flex;
@@ -82,7 +82,7 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 50px;
 }
 
