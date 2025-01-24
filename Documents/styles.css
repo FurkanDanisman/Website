@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: white;
     color: black;
     display: flex;
@@ -95,16 +95,12 @@ h3 {
     text-align: left;
 }
 
-/* Left-align bullet points (Publications & Working Papers) */
-.centered-content ol, 
-.centered-content ul {
-    text-align: left; /* Ensure left alignment */
+/* List Items with Indent */
+ol, ul {
     margin-left: 20px; /* Indent lists */
-    padding-left: 20px; /* Extra padding for structure */
 }
 
-/* List Items with Proper Spacing */
-.centered-content li {
+li {
     margin-bottom: 10px; /* Add space between list items */
 }
 
