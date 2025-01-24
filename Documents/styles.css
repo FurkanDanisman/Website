@@ -90,13 +90,14 @@ h3 {
 /* Left-align bullet points (Publications & Working Papers) */
 .centered-content ol, 
 .centered-content ul {
-    text-align: left; /* Ensure left alignment */
+    text-align: left; /* Force left alignment */
     margin-left: 20px; /* Indent lists */
-    padding-left: 20px; /* Extra padding for structure */
+    padding-left: 40px; /* Extra padding for better structure */
 }
 
-/* List Items with Proper Spacing */
+/* Ensure list items do not center inside the list */
 .centered-content li {
+    text-align: left; /* Left-align text inside <li> */
     margin-bottom: 10px; /* Add space between list items */
 }
 
