@@ -14,7 +14,6 @@ body {
     align-items: center;
     text-align: center;
 }
-
 /* Name and Profile Image Side by Side */
 .header-content {
     display: flex;
@@ -63,11 +62,21 @@ body {
     margin: 40px auto;
 }
 
-/* Text Content Centered */
-.text-content {
+/* Spacing for paragraphs */
+.text-content p {
     text-align: left;
-    font-size: 12px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.8; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Add space below each paragraph */
+}
+
+/* Spacing for H3 Headings */
+h3 {
+    font-size: 24px;
+    margin-top: 40px; /* Add space before the heading */
+    margin-bottom: 15px; /* Add space after the heading */
+    text-align: left;
+    width: 100%;
 }
 
 /* Centered Section (Publications, Working Papers) */
@@ -78,11 +87,20 @@ body {
     text-align: left;
 }
 
+/* List Items with Indent */
+ol, ul {
+    margin-left: 20px; /* Indent lists */
+}
+
+li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
 /* Footer Centered */
 footer {
     text-align: center;
     padding: 20px;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 50px;
 }
 
