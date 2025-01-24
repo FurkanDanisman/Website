@@ -1,7 +1,7 @@
 /* Reset default margins and paddings */
 * {
-    margin: 2;
-    padding: 2;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,20 +14,29 @@ body {
     align-items: center;
     text-align: center;
 }
-/* Name and Profile Image Side by Side */
+
+/* Name, Icons, and Profile Image Side by Side */
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    gap: 20px; /* Adds spacing between text/icons and the image */
 }
 
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Name Styling */
 .header-content h1 {
     font-size: 40px;
-    margin-right: 15px;
+    margin-bottom: 10px;
 }
 
-/* Profile Image Next to Name */
+/* Profile Image Next to Name and Icons */
 .profile-image {
     width: 120px;
     height: auto;
@@ -36,15 +45,14 @@ body {
 
 /* Social Media Icons Below Name */
 .social-links {
-    margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .social-links img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.2s;
 }
 
@@ -90,14 +98,13 @@ h3 {
 /* Left-align bullet points (Publications & Working Papers) */
 .centered-content ol, 
 .centered-content ul {
-    text-align: left; /* Force left alignment */
+    text-align: left; /* Ensure left alignment */
     margin-left: 20px; /* Indent lists */
-    padding-left: 40px; /* Extra padding for better structure */
+    padding-left: 20px; /* Extra padding for structure */
 }
 
-/* Ensure list items do not center inside the list */
+/* List Items with Proper Spacing */
 .centered-content li {
-    text-align: left; /* Left-align text inside <li> */
     margin-bottom: 10px; /* Add space between list items */
 }
 
