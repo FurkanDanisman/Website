@@ -1,4 +1,4 @@
-/* Reset styles to remove artificial constraints */
+/* Reset default margins and paddings */
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +7,37 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: white; /* Full white background */
+    background-color: white;
     color: black;
-    width: 100%;
-    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-/* Name at the top, centered */
-h1 {
-    text-align: center;
-    font-size: 42px;
-    margin-top: 40px;
+/* Name and Profile Image Side by Side */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+/* Profile Image Next to Name */
+.profile-image {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* Social Media Icons Below Name */
 .social-links {
-    margin: 15px 0;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -38,35 +53,29 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Content Wrapper - Properly Structured */
+/* Content Wrapper Centered */
 .content-wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     width: 90%;
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
-/* Text Content Uses More Space */
+/* Text Content Centered */
 .text-content {
-    flex: 2;
     text-align: left;
     font-size: 18px;
     line-height: 1.6;
 }
 
-/* Image on the Right - Scales with Screen */
-.profile-image {
-    flex: 1;
-    text-align: right;
-}
-
-.profile-image img {
-    width: 180px;
-    height: auto;
-    border-radius: 50%;
+/* Centered Section (Publications, Working Papers) */
+.centered-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
 }
 
 /* Footer Centered */
