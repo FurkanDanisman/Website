@@ -53,3 +53,26 @@ footer {
     background: white;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-size: 18px;
+    color: #333;
+}
+
+em {
+    color: #555;
+}
+
