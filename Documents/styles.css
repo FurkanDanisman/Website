@@ -80,7 +80,9 @@ body {
 
 /* Justify text only for the "thoughts about myself" section */
 .justified-text {
-    text-align: justify;
+    text-align: justify !important;
+    width: 100%; /* Ensures it takes up full width */
+    display: block; /* Ensures it's treated as a block-level element */
 }
 
 /* Spacing for H3 Headings */
