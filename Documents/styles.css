@@ -95,12 +95,14 @@ h3 {
     text-align: left;
 }
 
-/* List Items with Indent */
+/* List Items with Indent and Left Alignment */
 ol, ul {
     margin-left: 20px; /* Indent lists */
+    padding-left: 20px; /* Ensure proper spacing */
 }
 
 li {
+    text-align: left; /* Ensures text inside bullet points is left-aligned */
     margin-bottom: 10px; /* Add space between list items */
 }
 
